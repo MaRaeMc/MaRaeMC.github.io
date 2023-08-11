@@ -8,19 +8,20 @@ body {
     
 }
 .links h1 {
+    font-size: 100px;
     display: block;
     padding: 20px;
     border-bottom: 1px dashed white;
     border-bottom-width: 2px;
     border-bottom-color: aliceblue;
-    width: 400px;
+    width: auto;
     margin: auto;
     
 }
 
 .links a {
     text-decoration: none;
-    font-variant-caps: all-petite-caps;
+    font-variant-caps: all-small-caps;
     color: azure;
     opacity: .9;
 }
