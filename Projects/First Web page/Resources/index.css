@@ -1,0 +1,141 @@
+body {
+    background-color: aliceblue;
+    margin: 0 0;
+    overflow: scroll;
+}
+
+.header {
+    width: 100%;
+    background-image: url(Images/e40XJPp-national-geographic-desktop-background.jpg);
+    background-size: cover;
+    background-position: 50% 32%;
+    padding: 10px;
+    height: 300px;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.headcontent{
+    margin: 10px auto;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+}
+.headcontent h1 {
+    color: coral;
+    font-size: 60px;
+    opacity: .9;
+    margin-top: 60px;
+    opacity: 1.5;
+}
+.navigation {
+    margin-top: 20px;
+    padding: 20px
+}
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0 60px;
+
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: .7;
+    font-variant-caps: small-caps;
+    letter-spacing: 4px;
+}
+
+.navigation a:hover {
+    font-size: 32px;
+    opacity: 10;
+    }
+.first-p { 
+    font-family: 'Oswald' sans-serif;
+    font-size: 18px;
+    padding: 100px;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+.first-p h4{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.first-p p {
+    margin-left: 2rem;
+}
+.boxquote {
+    width: 65%;
+    height: auto;
+    line-height: 1.75;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 6px coral;
+    border-style: double;
+    text-align: center;
+    margin: 0 auto;
+}
+#second {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+
+    
+}
+
+.boxquote a {
+    text-decoration: none;
+    color: black;
+}
+.boxquote a:hover {
+    background-color: mediumaquamarine;
+}
+
+.body {
+    margin: 40px auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-image: url(Images/e40XJPp-national-geographic-desktop-background.jpg);
+    background-size: cover;
+    margin: 0px auto 0px;
+    border-top: 2px solid coral;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+    padding-bottom: 17px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.buttons p{
+    position: sticky;
+    display: inline-block;
+    width: 450px;
+    height: 100%;
+    margin: 6px;
+}
+.buttons a:hover {
+    background-color:azure;
+    opacity: .8;
+    
+}
+
+.buttons a {
+    text-decoration: none;
+    color: coral;
+    opacity: 1.5;
+}
