@@ -1,0 +1,31 @@
+body { 
+    background-color: black;
+    font-family: 'Nunito' sans-serif;
+    text-align: center;
+}
+.links {
+    padding: 100px;
+    
+}
+.links h1 {
+    display: block;
+    padding: 20px;
+    border-bottom: 1px dashed white;
+    border-bottom-width: 2px;
+    border-bottom-color: aliceblue;
+    width: 400px;
+    margin: auto;
+    
+}
+
+.links a {
+    text-decoration: none;
+    font-variant-caps: all-petite-caps;
+    color: azure;
+    opacity: .9;
+}
+
+.links a:hover {
+    color: darkturquoise;
+    opacity: 1.5;
+}
