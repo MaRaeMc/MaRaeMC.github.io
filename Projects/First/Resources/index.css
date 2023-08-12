@@ -12,8 +12,8 @@ body {
     padding: 10px;
     height: 300px;
     z-index: 1;
-    font-family: 'Oswald', sans-serif;
     text-align: center;
+    font-family: 'bricolage_grotesqueextrabold';
 }
 
 .headcontent{
