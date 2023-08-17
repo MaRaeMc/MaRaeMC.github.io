@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: paleturquoise;
+    color: ;
+    opacity: .8;
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface';
+    letter-spacing: 6px;
+    word-spacing: 2px;
+    ;
+    
+}
+
+table {
+  table-layout: fixed;
+  width: 98%;
+  border-collapse: collapse;
+  border: 2px solid ;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+thead th:nth-child(1) {
+  width: 60%;
+}
+
+thead th:nth-child(2) {
+  width: 40%;
+}
+
+thead th:nth-child(3) {
+  width: 60%;
+}
+
+thead th:nth-child(4) {
+  width: 50%;
+}
+
+thead th:nth-child(5) {
+  width: 45%;
+}
+
+thead th:nth-child(6) {
+  width: 40%;
+}
+
+thead th:nth-child(7) {
+  width: 40%;
+}
+
+thead th:nth-child(8) {
+  width: 45%;
+}
+
+thead th:nth-child(9) {
+  width: 48%;
+}
+thead th:nth-child(10) {
+  width: 52%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+thead {
+    background-color: coral;
+    font-family: arial;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+
+ 
+.Roboto { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.Bricolage_Grotesque {
+    font-family: 'Bricolage Grotesque';
+}
+
+.Rubik {
+    font-family: 'Rubik';
+}
+
+.Oswald {
+    font-family: 'Oswald';
+}
+
+.Raleway {
+    font-family: 'Raleway';
+}
+.font {
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: mediumaquamarine;
+    font-weight: 900;
+}
+
+.twenty, .forty, .bold,.x1, .x2 {
+    background-color: aliceblue;
+}
+.thirty, .normal, .ital, .x1_5 {
+    background-color: azure;
+}
+.font, .twenty, .thirty, .forty, .normal, .bold, .ital, .x1, .x1_5, .x2 {
+    border: 1px solid black;
+}
+
+.twenty {
+    font-size: 20px;
+}
+
+.thirty {
+    font-size: 30px;
+}
+
+.forty {
+    font-size: 40px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.ital {
+    font-style: italic;
+
+}
+.x1{
+    letter-spacing: 1px;
+
+}
+
+.x1_5 {
+    letter-spacing: 1.5px;
+
+    
+}
+.x2 {
+    letter-spacing: 2px;
+ 
+}
