@@ -1,8 +1,12 @@
 body { 
-    background-color: black;
+    background-image: url(images/NatgeoBG.jpg);
     font-family: 'Nunito' sans-serif;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 .links {
     padding: 100px;
     
@@ -11,9 +15,7 @@ body {
     font-size: 100px;
     display: block;
     padding: 20px;
-    border-bottom: 1px dashed white;
-    border-bottom-width: 2px;
-    border-bottom-color: aliceblue;
+    border-bottom: 3px dashed aliceblue;
     width: auto;
     margin: auto;
     
@@ -24,6 +26,7 @@ body {
     font-variant-caps: all-small-caps;
     color: azure;
     opacity: .9;
+    text-shadow: -1px 1px 2px black
 }
 
 .links a:hover {
