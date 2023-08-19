@@ -58,7 +58,8 @@ body {
 }
 
 .navigation a:hover {
-    font-size: 32px;
+    font-size: .15s;
+    font-size: 31px;
     opacity: 10;
     }
 .first-p { 
