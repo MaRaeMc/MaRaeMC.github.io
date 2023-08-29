@@ -86,7 +86,7 @@ header h1 {
     color: aliceblue;
     text-decoration: underline;
     text-decoration-color: coral;
-    text-decoration-style: double;
+    text-decoration-style: dotted;
 }
 
 .colors, .fonts, .text{
@@ -102,11 +102,12 @@ header h1 {
     color: aliceblue;
     text-decoration: underline;
     text-decoration-color: coral;
+    text-decoration-style: dotted;
     
 }
 
 .c_layout {
-    margin: 10px;
+    margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -126,12 +127,14 @@ header h1 {
     background-color: cadetblue;
     margin: 0;
     padding: 10px;
+    color: aliceblue;
 }
 
 .coral {
     background-color: coral;
     margin: 0;
     padding: 10px;
+    color: aliceblue;
 }
 
 .slate {
@@ -171,3 +174,30 @@ header h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
+
+.kanit-text, .bricolage-text, .mukta-text {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.kanit-text h1 {
+    margin: 0;
+    padding: 0 5px 0;
+}
+
+.bricolage-text h2 {
+    margin: 0;
+    padding: 35px 5px 0;
+}
+
+.mukta-text p {
+    margin: 0;
+    padding: 40px 5px 0;
+}
+.kanit-text ul, .bricolage-text ul, .mukta-text ul {
+    position: relative;
+    top: auto;
+    padding: 20px;
+    margin: 10px;
+}
+
