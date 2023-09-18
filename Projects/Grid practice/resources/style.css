@@ -1,0 +1,81 @@
+body {
+    
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+.grid {
+    background-color: black;
+    width: 1200px;
+    height: 1800px;
+    display: grid;
+    grid-template-areas: 
+        "first first first first second second second second second second"
+        "first first first first second second second second second second"
+        "first first first first third third third third fourth fourth"
+        "fifth fifth fifth fifth third third third third fourth fourth"
+        "fifth fifth fifth fifth third third third third fourth fourth"
+        "fifth fifth fifth fifth third third third third fourth fourth"
+        "sixth sixth sixth sixth sixth sixth sixth sixth fourth fourth"
+        "sixth sixth sixth sixth sixth sixth sixth sixth fourth fourth";
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+.d1 {
+    display: grid;
+    background-color: white;
+    grid-area: first;
+    align-content: center;
+}
+
+.d2 {
+    display: grid;
+    background-color: white;
+    grid-area: second;
+    align-content: center;
+}
+
+.d3 {
+    display: grid;
+    background-color: white;
+    grid-area: third;
+    align-content: center;
+}
+
+.d4 {
+   display: grid;
+    background-color: white;
+    grid-area: fourth;
+    align-content: center;
+    
+}
+
+.d5 {
+    display: grid;
+    background-color: white;
+    grid-area: fifth;
+    align-content: center;
+}
+
+.d6 {
+    display: grid;
+    background-color: white;
+    grid-area: sixth;
+    align-content: center;
+}
+
+.d1:hover {
+    background-color: aqua;
+}
+.d1:hover, .d2:hover, .d3:hover, .d4:hover, .d5:hover, .d6:hover {
+    background-color: aqua;
+}
+
+
+
