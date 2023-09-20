@@ -199,17 +199,20 @@ header .desktop a {
        height: 28rem;
        max-width: 100%;
   }
-
+    
   #sign-up-cta {
-    position: static;
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: none;
+      position: relative;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+      border: none;
   }
 
   #sign-up-cta .content {
-    margin-top: 0;
+      display: flex;
+      align-content: center;
+      justify-items: center;
+      margin: 0;
   }
 
   #sign-up-cta .email {
@@ -228,10 +231,15 @@ header .desktop a {
 @media only screen and (max-width: 450px) {
   #sign-up-section {
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 20rem;
+      width: auto;
   }
+  #sign-up-cta .header {
+      background-color: red;
+
+    }
 
   #sign-up-cta h1 {
     font-size: 2.25rem;
@@ -322,6 +330,17 @@ header .desktop a {
         padding: .75rem 2rem 1.875rem;
     }
 
+}
+@media only screen and (max-width: 500px) {
+    .feature h2 {
+        font-size: 1.125rem;
+        line-height: 1.3;
+        font-family: "Roboto", sans-serif;
+    }
+    .feature h3 {
+        font-size: .875rem;
+        line-height: 1.4;
+    }
 }
 
 /* Filters Section */
@@ -425,20 +444,35 @@ header .desktop a {
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
   }
+}
+
+@media only screen and (max-width: 500px) {
+    #quotes-section {
+        display: flex;
+    }
+    #quotes-section .quote {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    #quotes-section .quote-citation {
+        display: block;
+        padding-top: 1rem;
+        height: 3rem;
+    }
 }
 
 /* Footer */

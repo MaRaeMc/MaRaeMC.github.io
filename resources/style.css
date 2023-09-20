@@ -12,7 +12,7 @@ main {
 }
 
 .buttons {
-    padding: 100px;
+    padding: 10px;
     height: 1200px;
     width: 800px;
     display: flex;
@@ -29,6 +29,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
 
 .button, a {
