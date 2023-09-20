@@ -31,6 +31,7 @@ html {
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
+      max-width: 100%;
   }
 }
 
@@ -101,7 +102,7 @@ header .desktop a {
   header .mobile {
     display: block;
     width: 100%;
-    height: 48px;
+    height: 3rem;
   }
 
   header .content {
@@ -192,9 +193,11 @@ header .desktop a {
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
-    align-items: center;
-    justify-content: center;
-    height: 28rem;
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+       height: 28rem;
+       max-width: 100%;
   }
 
   #sign-up-cta {
@@ -224,7 +227,10 @@ header .desktop a {
 
 @media only screen and (max-width: 450px) {
   #sign-up-section {
-    height: 20rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 20rem;
   }
 
   #sign-up-cta h1 {
@@ -240,37 +246,51 @@ header .desktop a {
 
 #features-section {
     display: flex;
-    
+    width: auto;
+    justify-content: space-between;
     padding: 4rem 5%;
     background-color: #f3f3f3;
 }
 
+
 .feature {
-    width: 50%;
-    flex: 1;
-    padding: 2rem;
-    margin: 0px 1.25rem;
+    width: 48%;
+    max-height: 39.68rem;
     background-color: white;
 }
 
+.feature img {
+    max-width: 100%;
+}
 .feature .image-container {
-  width: 90%;
-  height: 65%;
-  margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+    width: 90%;
+    max-height: 65%;
+    margin: 2rem 2rem 2.5rem 2rem;
+}
+.feature .content {
+    height: ;
+    padding: 0 3rem 1.5rem 3rem;
+    text-wrap: wrap;
 }
 
 .feature h2 {
-  padding-bottom: .5rem;
-  font-size: 2.25rem;
-  font-weight: bold;
-  color: #4a4a4a;
+    padding-bottom: .5rem;
+    font-size: 2.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #4a4a4a;
+    line-height: 1.2;
 }
 
 .feature h3 {
-  font-size: 1rem;
-  line-height: 1.2;
-  font-weight: 300;
-  color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
 }
 
 @media only screen and (max-width: 890px) {
@@ -293,9 +313,15 @@ header .desktop a {
   }
 
   .feature {
-    margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
-  }
+      margin: 1rem auto 1.875rem;
+      padding: 0;
+      width: 100%;
+      height: 48%;
+    }
+    .feature .content {
+        padding: .75rem 2rem 1.875rem;
+    }
+
 }
 
 /* Filters Section */
@@ -306,26 +332,39 @@ header .desktop a {
 }
 
 #filters-section .content {
-  padding: 0 .625rem;
-  margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.625rem;
+    align-items: center;
 }
 
 #filters-section .content h2 {
-  font-size: 2.25rem;
-  font-weight: bold;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
 }
 
 #filters-section .content h3 {
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 300;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 300;
+    color: white;
+    padding: .5rem;
 }
 
 #filters-section .images-container {
-  max-width: 100%;
-  padding: 0 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 100%;
+    padding: 0 1%;
+    margin: 0;
+}
+
+#filters-section img {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -361,14 +400,18 @@ header .desktop a {
 /* Quotes Section */
 
 #quotes-section {
-  background-color: #f3f3f3;
+    background-color: #f3f3f3;
+    height: 12.035rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -377,7 +420,7 @@ header .desktop a {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -401,14 +444,16 @@ header .desktop a {
 /* Footer */
 
 footer {
-  background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
+    max-height: 3.875rem;
 }
 
 footer .content {
-  color: white;
-  display: flex;
-  font-size: .75rem;
+    color: white;
+    display: flex;
+    font-size: .75rem;
+    font-family: "Roboto", sans-serif
 }
 
 footer .copyright {
